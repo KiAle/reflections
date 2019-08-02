@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates a repository consisting of the current folder. Git creates the meta data folder
+	(.git). The files in the folder are not included into the repository. The reason for this is
+	that you maybe don't want to include every file. The files are added to the repository with
+	the first commit which you have to do yourself (manually). With the creating of the repository
+	there is no first commit.
+
+How is the staging area different from the working directory and the repository? What value do you think
+it offers?
+
+	The staging area is an intermediate stage between the working directory and the repository. You
+	can not access it with the cd command. It is only for gathering the files to be commited. The files
+	in there are still not "saved" in the repository and therefor not tracked.
+	The benefit of the staging area is that you can easily gather the files for a commit in one place and
+	have an overview about what will be commited.
+
