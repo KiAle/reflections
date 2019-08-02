@@ -15,3 +15,10 @@ it offers?
 	The benefit of the staging area is that you can easily gather the files for a commit in one place and
 	have an overview about what will be commited.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	With the commands "git diff" (compares working directory and staging area) and "git diff --staged" 
+	(compares staging area and last commit) i can identify which files are changed. To commit only one logical 
+	change i add only the files for this one change into the staging area and commit then. After the commit i
+	can add the other files for an other logical change and commit them.
+
